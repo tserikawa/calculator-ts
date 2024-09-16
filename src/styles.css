@@ -1,0 +1,61 @@
+/* 電卓の基本スタイル */
+.calculator {
+    width: 300px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #cccccc;
+    border-radius: 10px;
+    background-color: #a1a1a1;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1);
+}
+
+.display {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    width: 100%;
+    height: 75px;
+    margin-bottom: 10px;
+    font-size: 24px;
+    text-align: right;
+    /* border: 1px solid #ccc; */
+    border-radius: 10px;
+    background-color: #c3f9a5;
+}
+
+.display-process {
+    text-align: right;
+    font-size: 100%;
+}
+
+.display-result {
+    text-align: right;
+    font-size: 100%;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+button {
+    width: 100%;
+    height: 50px;
+    font-size: 18px;
+    background-color: #e0e0e0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ccc;
+}
+
+.clear-button {
+    background-color: rgba(255, 166, 0, 0.618);
+}
+
+.clear-button:hover {
+    background-color: orange;
+}

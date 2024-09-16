@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>電卓アプリ</title>
+    <!-- 外部CSSファイルのリンク -->
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+    <div class="calculator">
+        <div class="display">
+            <input type="text" class="display-process" id="display-process" disabled />
+            <input type="text" class="display-result" id="display-result" disabled />
+        </div>
+        <div class="buttons">
+            <!-- 電卓のボタン -->
+            <button value="7">7</button>
+            <button value="8">8</button>
+            <button value="9">9</button>
+            <button value="/">÷</button>
+            <button value="1">4</button>
+            <button value="5">5</button>
+            <button value="6">6</button>
+            <button value="*">*</button>
+            <button value="1">1</button>
+            <button value="2">2</button>
+            <button value="3">3</button>
+            <button value="-">-</button>
+            <button value="0">0</button>
+            <button value=".">.</button>
+            <button value="%">%</button>
+            <button value="+">+</button>
+            <button value="C" class="clear-button">C</button>
+            <button value="(">(</button>
+            <button value=")">)</button>
+            <button value="=">=</button>
+        </div>
+    </div>
+
+    <!-- TypeScriptファイルの読み込み -->
+    <script type="module" src="../dist/index.js"></script>
+
+</body>
+
+</html>
