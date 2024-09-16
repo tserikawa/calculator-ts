@@ -4,7 +4,7 @@
   "type": "module",
   "scripts": {
     "start": "parcel ./src/index.html",
-    "build": "parcel build src/index.html --dist-dir dist"
+    "build": "parcel build src/index.html --public-url https://tserikawa.github.io/calculator-ts/dist/"
   },
   "keywords": [],
   "author": "",
